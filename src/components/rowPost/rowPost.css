@@ -18,10 +18,38 @@
 .poster{
     max-height: 250px;
     margin-right: 10px;
-
+    cursor: pointer;
+}
+.poster:hover{
+    transform: scale(1.1);
 }
 .smallPoster{
     max-height: 150px;
     margin-right: 10px;
-
+    cursor: pointer;
 }
+.smallPoster:hover{
+    transform: scale(1.1);
+}
+/* Basic close button styles */
+.closebutton {
+    background-color: #2e2e2e; /* Background color */
+    color: #e4e4e4; /* Text color */
+    border-radius: 50%; /* Rounded shape */
+    width: 30px; /* Width of the button */
+    height: 30px; /* Height of the button */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    float: right;
+    margin-right: 10px;
+  }
+  
+  /* Hover styles (optional) */
+  .closebutton:hover {
+    background-color: #292929; /* Background color on hover */
+    color: #ff0000; /* Text color on hover */
+    border-color: #e90000; /* Border color on hover */
+  }
+  
